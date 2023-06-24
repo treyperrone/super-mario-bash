@@ -43,7 +43,7 @@ case $(hostnamectl | grep -i "operating system:") in
         PKG_MGR="dnf"
     ;;
     
-    *Red\ Hat\ Enterprise\ Linux\ 7.*)
+    *Red\ Hat\ Enterprise\ Linux\ Server\ 7.*)
         OS="rhe7"
         OS_ARCH="$(arch)"
         PKG_MGR="yum"
